@@ -1,6 +1,5 @@
 # code here!
-class School
-  def sort 
+def sort 
   nu_hash = {}
   roster.each do |x, y| 
     nu_hash[x] = y.sort 
@@ -8,5 +7,4 @@ class School
   nu_hash
 end 
   
-end
 end 
